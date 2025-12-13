@@ -1,58 +1,27 @@
 import React from 'react';
 
 const FieldVisits = () => {
-    const photos = [
-        {
-            id: 1,
-            url: 'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-            caption: 'Client Meeting at HQ'
-        },
-        {
-            id: 2,
-            url: 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-            caption: 'Strategic Planning Session'
-        },
-        {
-            id: 3,
-            url: 'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-            caption: 'Partnership Agreement'
-        },
-        {
-            id: 4,
-            url: 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-            caption: 'Quarterly Review'
-        },
-        {
-            id: 5,
-            url: 'https://images.unsplash.com/photo-1517048676732-d65bc937f952?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-            caption: 'Team Brainstorming'
-        },
-        {
-            id: 6,
-            url: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-            caption: 'Annual Conference'
-        },
-        {
-            id: 7,
-            url: 'https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-            caption: 'Office Tour'
-        },
-        {
-            id: 8,
-            url: 'https://images.unsplash.com/photo-1551836022-d5d88e9218df?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-            caption: 'Team Lunch'
-        },
-        {
-            id: 9,
-            url: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-            caption: 'Building Team Spirit'
-        },
-        {
-            id: 10,
-            url: 'https://images.unsplash.com/photo-1606857521015-7f9fcf423740?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-            caption: 'Modern Workspace'
-        }
-    ];
+   const photos = [
+  { id: 9,  url: '/fieldvisit/IMG-20251213-WA0009.jpg', caption: 'Field Visit Activity' },
+  { id: 10, url: '/fieldvisit/IMG-20251213-WA0010.jpg', caption: 'On-site Discussion' },
+  { id: 11, url: '/fieldvisit/IMG-20251213-WA0011.jpg', caption: 'Client Interaction' },
+  { id: 12, url: '/fieldvisit/IMG-20251213-WA0012.jpg', caption: 'Requirement Analysis' },
+  { id: 13, url: '/fieldvisit/IMG-20251213-WA0013.jpg', caption: 'Field Observation' },
+  { id: 14, url: '/fieldvisit/IMG-20251213-WA0014.jpg', caption: 'Team Coordination' },
+  { id: 15, url: '/fieldvisit/IMG-20251213-WA0015.jpg', caption: 'Work Progress Review' },
+  { id: 16, url: '/fieldvisit/IMG-20251213-WA0016.jpg', caption: 'Client Site Visit' },
+  { id: 17, url: '/fieldvisit/IMG-20251213-WA0017.jpg', caption: 'Data Collection' },
+  { id: 18, url: '/fieldvisit/IMG-20251213-WA0018.jpg', caption: 'Field Documentation' },
+  { id: 20, url: '/fieldvisit/IMG-20251213-WA0020.jpg', caption: 'Site Inspection' },
+  { id: 21, url: '/fieldvisit/IMG-20251213-WA0021.jpg', caption: 'Team Collaboration' },
+  { id: 22, url: '/fieldvisit/IMG-20251213-WA0022.jpg', caption: 'Client Briefing' },
+  { id: 23, url: '/fieldvisit/IMG-20251213-WA0023.jpg', caption: 'Field Work Execution' },
+  { id: 25, url: '/fieldvisit/IMG-20251213-WA0025.jpg', caption: 'On-site Planning' },
+  { id: 27, url: '/fieldvisit/IMG-20251213-WA0027.jpg', caption: 'Live Work Scenario' },
+  { id: 28, url: '/fieldvisit/IMG-20251213-WA0028.jpg', caption: 'Problem Analysis' },
+  { id: 31, url: '/fieldvisit/IMG-20251213-WA0031.jpg', caption: 'Field Visit Completion' }
+];
+
 
     return (
         <section id="gallery" className="py-20 bg-slate-800/20">

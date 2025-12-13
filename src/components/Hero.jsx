@@ -40,7 +40,7 @@ const Hero = () => {
                             {/* Profile Image */}
                             <div className="absolute inset-0 bg-gradient-to-tr from-blue-500 to-purple-500 rounded-3xl transform rotate-3 blur-md opacity-50"></div>
                             <img
-                                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                                src="/fieldvisit/profile.jpeg"
                                 alt="Ratheesana Sivaperumal"
                                 className="relative z-10 w-full h-full object-cover rounded-3xl border-2 border-slate-700 shadow-2xl transform -rotate-3 hover:rotate-0 transition-all duration-500"
                             />
