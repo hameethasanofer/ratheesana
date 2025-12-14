@@ -1,16 +1,21 @@
 import React from 'react';
 
 const Services = () => {
-    const skills = [
-        { name: 'Content Writing', icon: '✍️' },
-        { name: 'Negotiation Skills', icon: '🤝' },
-        { name: 'Problem-Solving', icon: '🧩' },
-        { name: 'Time Management', icon: '⏱️' },
-        { name: 'Presentation Skills', icon: '📊' },
-        { name: 'Networking', icon: '🌐' },
-        { name: 'Market Research', icon: '🔍' },
-        { name: 'Team Collaboration', icon: '👥' },
-    ];
+   const skills = [
+    { name: 'HR system management & recruiting', icon: '🗂️' },
+    { name: 'Research writing & proposal writing', icon: '✍️' },
+    { name: 'Content writing, copywriting & book/essay writing', icon: '📚' },
+    { name: 'Data entry & market research', icon: '💻' },
+    { name: 'English tutoring & life coaching', icon: '🧑‍🏫' },
+    { name: 'Voice-over work', icon: '🎙️' },
+    { name: 'Fashion & apparel content', icon: '👗' },
+    { name: 'Project management support', icon: '📋' },
+];
+
+
+
+
+
 
     return (
         <section id="services" className="bg-slate-900/50 py-20">

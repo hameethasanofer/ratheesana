@@ -16,6 +16,7 @@ const Header = () => {
         { name: 'About', href: '#about' },
         { name: 'Skills', href: '#services' },
         { name: 'Experience', href: '#portfolio' },
+        { name: 'Projects', href: '#projects' },
         { name: 'Gallery', href: '#gallery' },
         { name: 'Contact', href: '#contact' },
     ];
@@ -27,7 +28,7 @@ const Header = () => {
         >
             <div className="container mx-auto px-6 flex justify-between items-center">
                 <a href="#" className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-500">
-                    
+
                 </a>
 
                 {/* Desktop Nav */}

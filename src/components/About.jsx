@@ -10,9 +10,7 @@ const About = () => {
                         <h2 className="text-left mb-8 !text-4xl text-white">About Me</h2>
                         <div className="space-y-6 text-gray-300 text-lg leading-relaxed">
                             <p>
-                                I am a Detail-oriented individual eager to start a career in HR, utilizing organizational skills and a
-                                commitment to fostering a positive workplace culture while supporting recruitment and employee
-                                development initiatives.
+                                Hi, I’m Ratheesana! I’m a multi-skilled freelancer who helps clients with HR tasks, writing projects, research, voice-overs, and data support. I focus on delivering clear, fast, and high-quality work that makes your job easier.
                             </p>
                         </div>
 

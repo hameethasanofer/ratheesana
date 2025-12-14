@@ -8,6 +8,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 import FieldVisits from './components/FieldVisits';
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <About />
         <Services />
         <Portfolio />
+        <Projects />
         <FieldVisits />
         <Contact />
       </main>

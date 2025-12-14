@@ -14,7 +14,7 @@ const Hero = () => {
                 <div className="flex flex-col md:flex-row items-center justify-between gap-12">
                     <div className="md:w-1/2 text-left">
                         <div className="inline-block px-4 py-2 rounded-full border border-blue-400/30 bg-blue-400/10 text-blue-300 font-semibold text-sm mb-6">
-                            Human Resources Professional
+                           HR System & Talent Management Freelancer
                         </div>
                         <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight text-white">
                             Ratheesana <br />
